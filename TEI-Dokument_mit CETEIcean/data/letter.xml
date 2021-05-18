@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Augsut Wilhelm Ambros an Jacob Burckhardt</title>
+            <respStmt>
+               <name xml:id="MEZ">Maria Elisabeth Zdolsek</name>
+               <resp>TEI Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Staatarchiv Basel</orgName>
+               <address>
+                  <street>Martin Lane 2</street>
+                  <settlement>Basel</settlement>
+                  <postCode>4001</postCode>
+                  <country>Schweiz</country>
+               </address>
+            </publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <ref target="https://burckhardtsource.org/letter/32?philological"
+                  >Burckhardtsource</ref>aus<bibl>:<title>From: Ambros, August Wilhelm To:
+                     Burckhardt, Jacob,<placeName><settlement type="city"
+                        >Prag</settlement></placeName>
+                     <date when="1858">1858</date></title><pubPlace>Staatsarchiv Basel</pubPlace>
+                  <date when="1903-05-03"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename>August</forename>
+                  <forename>Wilhelm</forename>
+                  <surname>Ambros</surname>
+               </persName>
+               <address>
+                  <settlement>Prag</settlement>
+                  <country>Tschechien</country>
+               </address>
+               <date when="1858-05-03">3. Mai 1858</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename>Jacob</forename>
+                  <surname>Burckhardt</surname>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline rend="right">
+                  <placeName ref="#PRAG">
+                     <settlement type="city">Prag</settlement>
+                  </placeName>
+                  <date when="1858-05-03">3. Mai 1858</date>
+               </dateline>
+               <rs ref="#BURCK">Hochgeehrter Herr</rs>
+            </opener>
+            <p><lb/>Es gehört ohne Zweifel zu demer-
+               <lb break="no"/> freulichsten Lohne des verdienst-
+               <lb break="no"/> vollen Schriftstellers, an Orten, die
+               <lb/> <rs type="person">er</rs> vielleicht nie betreten, Menschen,
+               <lb/>die <rs type="person">er</rs> persönlich nicht kennt, ja<rs type="persons">deren</rs>
+               <lb/>Namen <rs type="person">er</rs> nie gehört hat, zu <rs type="person">seinen</rs>
+               <lb/>Verehrern zu zählen. Erblicken <rs ref="#BURCK">Sie,
+               <lb/>verehrter Herr</rs>, in der Uebersendung
+               <lb/>des beiliegenden <rs ref="#BOOK">Buches</rs> über den
+               <lb/><placeName ref="#PDOM">Prager Dom</placeName> eben nur auch ein
+               <lb/> Zeichen der herzlichsten Verehrung,
+               <lb/>die ein <rs ref="#BURCK">Ihnen</rs> persönlich Unbekann-
+               <lb break="no"/>ter für <rs ref="#BURCK">Sie</rs> hegt. Daß <rs ref="#BURCK">Ihre</rs> und
+               <lb/><rs ref="#BURCK">Ihres</rs> verewigten Freundes <persName ref="#KUG"><surname>Kugler</surname></persName>
+               <lb/>Anschauungs- und Darstellungsweise</p>
+            <p rend="right">./.</p>
+         </div>
+				 <standOff>
+						<listPerson>
+							 <person xml:id="AMB">
+									<persName>
+										 <forename>August</forename>
+										 <forename>Wilhelm</forename>
+										 <surname>Ambros,</surname>
+									</persName>
+									<state>
+										 <p>österreichischer Musikhistoriker, Musikkritiker und Komponist.</p>
+									</state>
+									<birth>
+										 <date when="1816-11-17"> Geboren am 17. November 1816</date>
+										 <placeName>
+												<settlement type="city">Wien</settlement>
+												<country>Österreich</country>
+										 </placeName>
+									</birth>
+									<death>
+										 <date when="1876-06-28"> Gestroben 28. Juni 1876</date>
+										 <placeName>
+												<settlement type="city">Wien</settlement>
+												<country>Österreich.</country>
+										 </placeName>
+									</death>
+									<idno type="URI">http://viaf.org/viaf/83655824.</idno>
+							 </person>
+							 <person xml:id="BURCK">
+									<persName>
+										 <forename>Jacob</forename>
+										 <surname>Burckhardt,</surname>
+									</persName>
+									<state>
+										 <p>schweizer Kulturhistoriker mit Schwerpunkt Kunstgeschichte</p>
+									</state>
+									<birth>
+										 <date when="1818-05-25"> Geboren am 25. Mai 1818</date>
+										 <placeName>
+												<settlement>Basel,</settlement>
+												<country>Schweiz.</country>
+										 </placeName>
+									</birth>
+									<death>
+										 <date when="1897-08-08"> Gestorben am 8. August 1897</date>
+										 <placeName>
+												<settlement type="city">Basel,</settlement>
+												<country>Schweiz.</country>
+										 </placeName>
+									</death>
+									<idno type="URI">http://viaf.org/viaf/51686578</idno>
+							 </person>
+							 <person xml:id="KUG">
+									<persName>
+										 <forename>Bernhard</forename>
+										 <surname>von Kugler</surname>
+									</persName>
+									<state>
+										 <p>deutscher Historiker.</p>
+									</state>
+							 </person>
+						</listPerson>
+						<listPlace>
+							 <place xml:id="PRAG">
+									<placeName xml:lang="de">
+										 <settlement type="city">Prag, Hauptstadt v.</settlement>
+										 <country>Tschechien.</country>
+									</placeName>
+							 </place>
+						</listPlace>
+				 </standOff>
+      </body>
+   </text>
+</TEI>

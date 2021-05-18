@@ -1,0 +1,39 @@
+tei-div {
+  display: block;
+  background-color:#F5F5DC;
+}
+
+
+tei-opener {
+  display: block;
+}
+
+tei-text {
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
+tei-person{
+    margin-top:  .10rem;
+    color: dark-grey;
+    font-size: .6rem;
+}
+
+tei-settlement{
+    margin-top:  .10rem;
+    color: dark-grey;
+    font-size: .6rem;
+    background-color: light-grey;
+}
+tei-country{
+    margin-top:  .10rem;
+    color: dark-grey;
+    font-size: .6rem;
+    background-color: light-grey;
+}
+
+
+tei-tei {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
